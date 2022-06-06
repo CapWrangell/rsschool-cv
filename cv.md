@@ -31,21 +31,17 @@ I want to learn frontend and become a web developer. In the future I want to lea
 ### Code example
 
 ```
-function finalGrade (exam, projects) {
-  if (exam > 90 || projects > 10) {
-    return 100
+function solution(number){
+  let sum = 0;
+  if (number <= 0) { return 0 } else {
+    for (let i = 1; i < number; i++) {
+      if (i % 3 === 0 || i % 5 === 0) {
+        sum += i;
+      }
     }
-    else {
-    if (exam > 75 && projects >= 5) {
-      return 90
-      }
-      else {
-        if (exam > 50 && projects >= 2) {
-          return 75
-          } else return 0
-        }
-      }
-  }
+  } 
+  return sum;
+}
 ```
 
 ---
