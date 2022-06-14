@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/favicon.ico">
+    <title>Alexander Malakhov</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+            <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+            <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+            <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+            <li class="nav-item"><a href="#work" class="nav-link">Work</a></li>
+            <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+            <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main-container">
+      <div class="container main-container">
+        <section class="section section-profile" id="profile">
+          <img src="img/myphoto.jpg" alt="Alexander Malakhov photo" />
+          <div class="section-profile-title">
+            <h1 class="section-title name">Alexander Malakhov</h1>
+            <h3 class="profession">Junior Front-End Developer</h3>
+          </div>
+        </section>
+        <section class="section" id="contacts">
+          <h2 class="section-title">Contacts:</h2>
+          <ul>
+            <li>
+              <b>Location: </b> 
+            Udomla, Tver region, Russia
+            </li>
+            <li>
+              <b>Phone: </b> 
+              <a href="tel:+79520694269">+7 (952) 069-42-69</a>
+            </li>
+            <li>
+              <b>E-mail: </b>
+              <a href="mailto:pride_ru@mail.ru">pride_ru@mail.ru</a>
+            </li>
+            <li>
+              <b>GitHub:</b>
+              <a href="https://github.com/CapWrangell" title="Переход на GitHub CapWrangell">
+                CapWrangell
+              </a>
+            </li>
+            <li>
+              <b>VK:</b>
+              <a href="https://vk.com/id34460788">Alexander Malakhov</a>
+            </li>
+          </ul>
+        </section>
+        <section class="section" id="summary">
+          <h2 class="section-title">Summary</h2>
+          <p>
+            I'm 27 years old. I work at the Kalinin nuclear power plant. I want to
+            learn frontend and become a web developer. In the future I want to learn
+            backend. My goal is to change profession, become a web developer and
+            reach my full potential.
+          </p>
+        </section>
+        <section class="section" id="skills">
+          <h2 class="section-title">Skills</h2>
+          <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>Git</li>
+          </ul>
+        </section>
+        <section class="section" id="code">
+          <h2 class="section-title">Code example</h2>
+          <pre class="code-example">
+            function solution(number){
+              let sum = 0;
+              if (number &lt;= 0) { return 0 } else {
+                for (let i = 1; i &lt; number; i++) {
+                  if (i % 3 === 0 || i % 5 === 0) {
+                    sum += i;
+                  }
+                }
+              } 
+              return sum;
+            }</pre>
+        </section>
+        <section class="section" id="work">
+          <h2 class="section-title">Work</h2>
+          <p>
+            <i>March 2020 - Present</i> Kalinin nuclear power plant, Reactor
+            department operator
+          </p>
+        </section>
+        <section class="section" id="education">
+          <h2 class="section-title">Education</h2>
+          <ul>
+            <li>
+              <b>Tomsk Polytechnic University</b>
+              <ul>
+                <li>School of Nuclear Science & Engineering</li>
+              </ul>
+            </li>
+            <li>
+              <b>Courses</b>
+              <ul>
+                <li>RSSchool in progress</li>
+              </ul>
+            </li>
+          </ul>
+        </section>
+        <section class="section" id="languages">
+          <h2 class="section-title">Languages</h2>
+          <ul>
+            <li><b>Russian</b> - native speaker</li>
+            <li><b>English</b> - A2</li>
+          </ul>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container footer-container">
+        <div>
+          © 2022 
+          <a href="https://github.com/CapWrangell" class="nav-link">CapWrangell</a>
+        </div>
+        <a href="https://rs.school/js/" class="rss"></a>
+      </div>
+    </footer>
+  </body>
+</html>
