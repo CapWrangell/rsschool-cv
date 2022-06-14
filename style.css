@@ -1,3 +1,101 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  display: block;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+img {
+  width: 250px;
+  height: auto;
+  border-radius: 50%;
+}
+
 h1 {
-  color: red;
+  font-size: 200%;
+}
+
+h3 {
+  font-size: 150%;
+  margin-bottom: 0;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  min-height: 50px;
+}
+
+@media (max-width: 1440px) {
+  .container {
+      padding: 0 20px;
+  }
+}
+
+
+.section {
+  width: calc(100% - 20px);
+  padding: 10px;
+  padding-bottom: 35px;
+  border-bottom: 1px solid #672f2f;
+}
+
+.section-profile {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 50px 30px 35px;
+  border-bottom: 15px solid #d7d1c9;
+}
+
+.code-example {
+  padding: 15px;
+  overflow: auto;
+  font-size: 90%;
+  line-height: 1.25;
+  margin: 0;
+  background-color: aliceblue;
+  border-radius: 10px;
+}
+
+.nav {
+  display: block;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-link {
+  position: relative;
+  padding: 0 20px;
+  text-decoration: none;
+  line-height: 50px;
+  transition: .3s;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.rss {
+  width: 121px;
+  height: 45px;
+  background-image: url(./img/rs_school_js.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
